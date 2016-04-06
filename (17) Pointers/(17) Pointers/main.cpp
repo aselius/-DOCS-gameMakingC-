@@ -25,7 +25,7 @@ int main() {
 
 	//So a pointer is a variable that stores an address.
 	// this is an integer pointer. the * indicates it.
-	int *myPointer = NULL;
+	int *myPointer = nullptr;
 	// You always want to initialize a pointer. Null is good since if you try to access a null pointer the compiler will issue a null access violation. So it is easy to check for bugs.
 	// If you dont initialize you may get a random address!
 
